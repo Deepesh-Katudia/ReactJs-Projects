@@ -24,6 +24,9 @@ body {
   width: 100%;
   background-color: #242424;
   padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .card {
@@ -76,10 +79,24 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
-
+ 
 .bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #555;
+  border-top: 2px solid #555;;
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  column-width: 600px;
+}
+
+.bottom h3 {
+  font-size: 16px;
+  font-weight: 700;
 }
